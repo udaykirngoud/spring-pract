@@ -10,4 +10,8 @@ public class TestController {
     public String getMessage(){
         return "hi this is uday";
     }
+    @GetMapping("/addition")
+    public int add(){
+        return 10+20;
+    }
 }
